@@ -9,6 +9,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{2339D3D8-E
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Singleton", "Core\Singleton\Singleton.csproj", "{4AB37968-9551-4C04-8FD9-5F5CF18190B8}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestProject", "Design.Tests\TestProject.csproj", "{E7AE1400-878E-40D2-ABAF-C6CDF817B6E5}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -46,6 +48,18 @@ Global
 		{4AB37968-9551-4C04-8FD9-5F5CF18190B8}.Release|x64.Build.0 = Release|Any CPU
 		{4AB37968-9551-4C04-8FD9-5F5CF18190B8}.Release|x86.ActiveCfg = Release|Any CPU
 		{4AB37968-9551-4C04-8FD9-5F5CF18190B8}.Release|x86.Build.0 = Release|Any CPU
+		{E7AE1400-878E-40D2-ABAF-C6CDF817B6E5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E7AE1400-878E-40D2-ABAF-C6CDF817B6E5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E7AE1400-878E-40D2-ABAF-C6CDF817B6E5}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{E7AE1400-878E-40D2-ABAF-C6CDF817B6E5}.Debug|x64.Build.0 = Debug|Any CPU
+		{E7AE1400-878E-40D2-ABAF-C6CDF817B6E5}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{E7AE1400-878E-40D2-ABAF-C6CDF817B6E5}.Debug|x86.Build.0 = Debug|Any CPU
+		{E7AE1400-878E-40D2-ABAF-C6CDF817B6E5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E7AE1400-878E-40D2-ABAF-C6CDF817B6E5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E7AE1400-878E-40D2-ABAF-C6CDF817B6E5}.Release|x64.ActiveCfg = Release|Any CPU
+		{E7AE1400-878E-40D2-ABAF-C6CDF817B6E5}.Release|x64.Build.0 = Release|Any CPU
+		{E7AE1400-878E-40D2-ABAF-C6CDF817B6E5}.Release|x86.ActiveCfg = Release|Any CPU
+		{E7AE1400-878E-40D2-ABAF-C6CDF817B6E5}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{4AB37968-9551-4C04-8FD9-5F5CF18190B8} = {2339D3D8-E882-47D6-8C13-6D48322E3380}
