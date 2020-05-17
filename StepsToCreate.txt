@@ -1,0 +1,31 @@
+All from C:\Users\admin\Desktop\Practice\DesignPatterns
+# Create a new Console Project inside Console Folder
+dotnet new console -n StarterProgram -o Console
+
+#Create a solution named as DesignPatterns
+dotnet new sln --name DesignPatterns
+
+#Add StarterProgram project to solution
+dotnet sln add Console\StarterProgram.csproj
+
+#Create another library project Named SingleTon inside Core Folder
+dotnet new classlib -n Singleton -o Core\Singleton
+
+
+#Add StarterProgram project to solution
+dotnet sln add Core\Singleton\Singleton.csproj
+
+#List all folders in solution
+dotnet sln list
+
+# Add Test Project
+dotnet new nunit -n TestProject -o Design.Tests
+
+#Add StarterProgram project to solution
+dotnet sln add Design.Tests\TestProject.csproj
+
+dotnet restore
+dotnet build
+dotnet test
+
+
